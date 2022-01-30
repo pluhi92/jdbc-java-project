@@ -3,7 +3,7 @@ package com.pluhi;
 public class DBConnection {
     static final String DB_URL = "jdbc:postgresql://localhost:5432/pluhis_database";
     static final String USER = "postgres";
-    static final String PASSWORD = "Polipoknak22";
+    static final String PASSWORD = "******";
     static final String QUERY = """
             select person.first_name, person.surname, person.birthday, relationship_type.title, contact.contact
             from person, relationship_type, relationship, contact
